@@ -1,0 +1,115 @@
+:root {
+  --primary: #d1ba33;
+  --h-color: #1d1e21;
+  --p-color: #545657;
+  --span-color: #8f9092;
+  --black: #000;
+  --white: #fff;
+  --font: "Roboto", sans-serif;
+}
+
+p {
+  font-family: var(--p-font);
+}
+
+body {
+  font-family: "Frank Ruhl Libre", serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* ==========================button====================== */
+.button {
+  color: var(--white);
+  background-color: var(--h-color);
+  font-size: 15px;
+  padding: 0px 45px 0 37px;
+  line-height: 57px;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: transparent;
+}
+
+/* =============================navbar===================== */
+.navbar {
+  background-color: var(--white);
+  padding: 27px 0;
+}
+
+.navbar .nav-item .nav-link {
+  color: var(--h-color);
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 15px;
+}
+
+.navbar .head-icon span i {
+  font-size: 18px;
+  color: var(--h-color);
+  margin-right: 25px;
+}
+
+/* ======================login========================== */
+.login {
+  height: 100vh;
+}
+
+.login .login-form form label {
+  display: block;
+  margin: 20px 0;
+}
+
+.login .login-form form input {
+  margin: 10px 0;
+}
+
+.login .login-form form {
+  width: 400px;
+  border: 1px solid #dee2e6;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.login .login-btn button {
+  line-height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: var(--primary);
+}
+
+.login .login-btn a {
+  margin-top: 20px;
+  display: inline-block;
+  color: var(--h-color);
+  font-weight: 700;
+}
